@@ -41,8 +41,8 @@ jobs:
               uses: actions/upload-artifact@v7
               with:
                 name: unit-test-results
-                path: unittestresults.xml
-                retention-days: 1  
+                path: test-results.xml 
+                retention-days: 1 
               
     code-coverage:
         name: Code-coverage

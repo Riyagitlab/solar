@@ -104,8 +104,7 @@ jobs:
                 name: codecoverage-test-results
                 path: coverage
                 retention-days: 1
-]
-'[[-]]
+
     docker:
         name: Containerization
         # needs: [unit-testing, code-coverage]
